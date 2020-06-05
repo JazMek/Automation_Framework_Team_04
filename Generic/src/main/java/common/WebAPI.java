@@ -266,7 +266,7 @@ public class WebAPI {
     }
 
     public static void captureScreenshot(WebDriver driver, String screenshotName) {
-        DateFormat df = new SimpleDateFormat("(MM-dd-yyyy-HH:mma)");
+        DateFormat df = new SimpleDateFormat("M-d-y");
         Date date = new Date();
         df.format(date);
         System.setProperty("current.date",date.toString().replace(" ","_").replace(":","_"));
