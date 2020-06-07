@@ -35,7 +35,23 @@ public class BaseClass extends WebAPI {
     @FindBy(how= How.CSS ,using = signinCSS)
     public static  WebElement signin;
 
-public static BaseClass baseClass;
+    @FindBy(how= How.CSS ,using=searchBoxCSS)
+    public static WebElement searchBox;
+
+    @FindBy(how= How.CSS ,using=searchButtonCSS)
+    public static WebElement searchButton;
+
+    //Hakim webelementconnection:
+    @FindBy(how= How.XPATH ,using=amazonWholefoodsbuttonXP)
+    public static WebElement amazonWholefoodsbutton;
+
+    @FindBy(how= How.CSS ,using=amazonWholefoodstextCSS)
+    public static WebElement amazonWholefoodstext;
+
+
+
+
+    public static BaseClass baseClass;
     public static void loginToAmazonAccount(){
         signin.click();
         userNameField.sendKeys("team4WDNY2020@gmail.com");
