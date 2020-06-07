@@ -17,6 +17,7 @@ public class TestHomePage extends WebAPI {
     public static void init(){
        homePage= PageFactory.initElements(driver,HomePage.class);
        baseClass = PageFactory.initElements(driver,BaseClass.class);
+
  }
 
 
