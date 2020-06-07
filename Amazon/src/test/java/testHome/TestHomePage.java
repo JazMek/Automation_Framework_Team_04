@@ -21,15 +21,21 @@ public class TestHomePage extends WebAPI {
 
 
 
+//@Test
+//       public void searchField() throws InterruptedException {
+//        init();
+//        baseClass.loginToAmazonAccount();
+//
+//        homePage.searchBox.sendKeys("t shirt");
+//        homePage.searchButton.click();
+//
+//
+//}
 @Test
-       public void searchField() throws InterruptedException {
-        init();
-        baseClass.loginToAmazonAccount();
-
-        homePage.searchBox.sendKeys("t shirt");
-        homePage.searchButton.click();
-
-
+public  void testwholefoods(){
+init();
+        homePage.wholefoodsPage();
+        homePage.verifywholefoodslogo();
 }
 
 
