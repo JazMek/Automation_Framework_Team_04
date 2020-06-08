@@ -1,5 +1,5 @@
-# Created at 2020-06-08T03:03:41.174
-org.apache.maven.surefire.testset.TestSetFailedException: Suite file /Users/karimmekdoud/IdeaProjects/AutomationFramework_Team_04/Geico/target/test-classes/AmazonTestRunner.xml is not a valid file
+# Created at 2020-06-08T03:55:27.759
+org.apache.maven.surefire.testset.TestSetFailedException: Suite file C:\Users\lamar\IdeaProjects\Automation_Framework_Team_04\TD_Bank\target\test-classes\AmazonTestRunner.xml is not a valid file
 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.locateTestSets(TestNGXmlTestSuite.java:99)
 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
