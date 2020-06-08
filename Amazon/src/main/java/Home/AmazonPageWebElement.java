@@ -12,14 +12,20 @@ public class AmazonPageWebElement {
     public static final String loginButtonID="signInSubmit";
     public static final String signinCSS ="#nav-link-accountList > div > span";
 
-        //********************** hakim web element ******************
-    public static final String amazonWholefoodsbuttonXP ="//*[@id=\"nav-xshop\"]/a[6]";
-    public static final String amazonWholefoodstextCSS ="#nav-subnav > a.nav-a.nav-hasImage > span > img";
+//        //********************** hakim web element ******************
+//    public static final String amazonWholefoodsbuttonXP ="//*[@id=\"nav-xshop\"]/a[6]";
+//    public static final String amazonWholefoodstextCSS ="#nav-subnav > a.nav-a.nav-hasImage > span > img";
+//
+//
+////    ***************************karim web element **************************************************************
+//
+//   //Test caise one webElement:
+
+    //*********************LAMARAS WebElements***********************
+    public static final String ClickBestSellersCSS="#nav-xshop > a:nth-child(2)";
+//    public static final String CheckTitleBestSellersCSS="";
 
 
-//    ***************************karim web element **************************************************************
-
-   //Test caise one webElement:
 
 
 

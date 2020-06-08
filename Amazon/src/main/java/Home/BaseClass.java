@@ -18,7 +18,6 @@ public class BaseClass extends WebAPI {
     public static WebElement signinButton2;
 
     @FindBy(how= How.XPATH,using=userNameFieldXP)
-
     public static WebElement userNameField;
 
     @FindBy(how= How.XPATH,using=continueButtonXP)
@@ -30,8 +29,6 @@ public class BaseClass extends WebAPI {
     @FindBy(how= How.ID,using=loginButtonID)
     public static  WebElement loginButton;
 
-
-
     @FindBy(how= How.CSS ,using = signinCSS)
     public static  WebElement signin;
 
@@ -41,15 +38,17 @@ public class BaseClass extends WebAPI {
     @FindBy(how= How.CSS ,using=searchButtonCSS)
     public static WebElement searchButton;
 
-    //Hakim webelementconnection:
-    @FindBy(how= How.XPATH ,using=amazonWholefoodsbuttonXP)
-    public static WebElement amazonWholefoodsbutton;
+//    //Hakim webelementconnection:
+//    @FindBy(how= How.XPATH ,using=amazonWholefoodsbuttonXP)
+//    public static WebElement amazonWholefoodsbutton;
+//
+//    @FindBy(how= How.CSS ,using=amazonWholefoodstextCSS)
+//    public static WebElement amazonWholefoodstext;
 
-    @FindBy(how= How.CSS ,using=amazonWholefoodstextCSS)
-    public static WebElement amazonWholefoodstext;
 
-
-
+    //*******Check Best sellers Page Url******************
+    @FindBy(how= How.CSS ,using=ClickBestSellersCSS)
+    public static WebElement ClickBestSellers;
 
     public static BaseClass baseClass;
     public static void loginToAmazonAccount(){

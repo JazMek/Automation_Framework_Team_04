@@ -11,18 +11,17 @@ import java.util.concurrent.TimeUnit;
 import static Home.BaseClass.*;
 
 public class TestHomePage extends WebAPI {
-    public  static HomePage homePage;
-    public  static  BaseClass  baseClass;
+    public static HomePage homePage;
+    public static BaseClass baseClass;
 
-    public static void init(){
-       homePage= PageFactory.initElements(driver,HomePage.class);
-       baseClass = PageFactory.initElements(driver,BaseClass.class);
+    public static void init() {
+        homePage = PageFactory.initElements(driver, HomePage.class);
+        baseClass = PageFactory.initElements(driver, BaseClass.class);
 
- }
+    }
 
 
-
-//@Test
+    //@Test
 //       public void searchField() throws InterruptedException {
 //        init();
 //        baseClass.loginToAmazonAccount();
@@ -32,12 +31,17 @@ public class TestHomePage extends WebAPI {
 //
 //
 //}
-@Test
-public  void testwholefoods(){
-init();
-        homePage.wholefoodsPage();
-        homePage.verifywholefoodslogo();
-}
+//@Test
+//public  void testwholefoods(){
+//init();
+//        homePage.wholefoodsPage();
+//        homePage.verifywholefoodslogo();
+//}
+    @Test
+    public void testBestSellersPage() {
+        init();
+        homePage.BestSellersPage();
+        homePage.VerifyBestSellersUrl();
 
-
+    }
 }
