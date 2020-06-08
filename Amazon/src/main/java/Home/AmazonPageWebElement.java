@@ -17,6 +17,12 @@ public class AmazonPageWebElement {
     public static final String amazonWholefoodstextCSS ="#nav-subnav > a.nav-a.nav-hasImage > span > img";
 
 
+//    ***************************karim web element **************************************************************
+
+   //Test caise one webElement:
+
+
+
 
 
 

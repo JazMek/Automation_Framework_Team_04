@@ -2,7 +2,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <parent>
+
+<parent>
         <artifactId>AutomationFramework_Team4</artifactId>
         <groupId>us.piit</groupId>
         <version>1.0-SNAPSHOT</version>
@@ -119,11 +120,11 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
- 30206NY_Hakim
-                               <version>3.0.0-M4</version>
 
-                                <version>3.0.0-M4</version>
- master
+<!--                               <version>3.0.0-M4</version>-->
+
+<!--                                <version>3.0.0-M4</version>-->
+
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
                     <suiteXmlFiles>
